@@ -1,0 +1,42 @@
+.scroolReveal{
+    display: inline;
+    opacity: 0;
+    animation: box-reveal linear forwards;
+    animation-timeline: view(5% 15%);
+
+    * {
+        display: inline;
+        color: hsla(0, 0%, 100%, 0.3);
+        background-image: linear-gradient(white, white);
+        background-clip: text;
+        background-size: 0% 100%;
+        background-repeat: no-repeat;
+        animation: scroll-reveal linear forwards;
+        animation-timeline: view(20% 15%);
+    }
+}
+
+@keyframes box-reveal {
+    from {
+        opacity: 0;
+        filter: blur(20px);
+    }
+    25% {
+        opacity: 1;
+        filter: blur(0);
+    }
+    75% {
+        opacity: 1;
+        filter: blur(0);
+    }
+    to {
+        opacity: 0;
+        filter: blur(20px);
+    }
+}
+
+@keyframes scroll-reveal {
+    to {
+        background-size: 100% 100%;
+    }
+}
