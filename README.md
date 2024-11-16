@@ -14,11 +14,12 @@
 
 
 ## 📋 <a name="table">Table of Contents</a>
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
+1. ⚙️ [Tech Stack](#tech-stack)
+2. 🔋 [Features](#features)
+3. 🤸 [Quick Start](#quick-start)
+4. ✏️ [Personalization](#personalization)
 5. 🚀 [Deploy](#deploy)
+6. 📄 [License](#license)
 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
@@ -62,10 +63,56 @@ npm i
 
 ```bash
 npm run dev
+
+npm run dev -- -H 0.0.0.0 -p 3000 # host development server on local network
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
 
+## <a name="personalization">✏️ Personalization</a>
+**Set Up Enviroment Variables**
+
+Go to `@/next.config.mjs` to modify the general info:
+```JSON
+env: {
+  "name": "John",
+  "lastName": "Brown"
+}
+```
+
+**Add Works**
+
+1. Go to `@/src/app/(pages)/work/articles/` folder.
+2. Create a new file with the url name of the page (so without spaces) and a folder in the `@/public/work` directory with the same name.
+3. Add metadata:
+```md
+---
+
+title: Title
+subtitle: Subtitle
+image: image.jpg         # cover image
+imagePosition: "cover"   # you can also define the contain position 
+date: 01-01-2024
+textColor: "#fff"
+bgColor: "#ff00000d"
+render: true
+
+---
+```
+
+
 ## <a name="deploy">🚀 Deploy</a>
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2pietropeerani%2Fportfolio)
+
+
+<div align="center">
+  <br />
+    <img src="./public/github-banner-no-text.png" alt="Project Banner">
+  <br />
+
+</div>
+
+
+## <a name="license">📄 License</a>
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
