@@ -10,7 +10,7 @@ export default function Works() {
             <Header theme="light" />
 
             <div className="py-52 px-24 flex justify-center items-center">
-                <h1 className="max-w-screen-lg text-8xl font-semibold text-center">
+                <h1 className="max-w-screen-lg title-h1 text-center">
                     Select work
                 </h1>
             </div>

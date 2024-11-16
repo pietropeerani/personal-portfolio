@@ -14,7 +14,7 @@ export default function Footer() {
     return(
         <footer className="md:py-52 py-24 max-lg:gap-10 px-24 flex lg:flex-row flex-col border-t border-[#ddd]">
             <div className="md:w-1/2 flex flex-col gap-4">
-                <div className="text-8xl mb-6">Let's connect digitally</div>
+                <div className="title-h1 mb-6">Let's connect digitally</div>
                 <div className="text-md">© 2024 {process.env.name} {process.env.lastName}</div>
             </div>
             <div className="w-1/2 flex flex-col justify-center items-center mx-auto">

@@ -19,7 +19,7 @@ export default function Header({ theme }: HeaderProps) {
 
     return (
         <header className="fixed w-full z-50">
-            <div className="bg-transparent mx-auto py-12 px-24 flex justify-between">
+            <div className="bg-transparent mx-auto py-8 md:py-12 px-4 md:px-24 flex justify-between">
                 <Link href={'/'} style={{ color: theme }}>{process.env.name} {process.env.lastName}</Link>
                 <div className="flex gap-8">
                     {

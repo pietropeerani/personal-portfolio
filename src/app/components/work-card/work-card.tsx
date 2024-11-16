@@ -33,7 +33,7 @@ export default function Card({
             {...(link && { href: link })}
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
-            className="block relative h-[700px] aspect-video overflow-hidden py-20 px-24 transition-all duration-200"
+            className="block relative md:h-[700px] aspect-[12/16] md:aspect-video overflow-hidden py-12 md:py-20 px-12 md:px-24 transition-all duration-200"
             style={{
                 backgroundColor: bgColor,
                 transform: hover ? 'scale(0.95)' : 'scale(1)',
@@ -41,7 +41,7 @@ export default function Card({
             }}
         >
             <div className="h-full relative z-10 flex flex-col justify-between text-white">
-                <h1 className="text-7xl font-semibold transition-all duration-200" style={{ color: textColor, transform: hover ? 'translateY(20px)' : 'translateY(0)' }}>{title}</h1>
+                <h1 className="title-h2 transition-all duration-200" style={{ color: textColor, transform: hover ? 'translateY(20px)' : 'translateY(0)' }}>{title}</h1>
                 {subtitle && <p className="text-3xl font-semibold" style={{color: textColor}}>{subtitle}</p>}
             </div>
 

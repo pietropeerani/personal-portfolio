@@ -140,3 +140,11 @@
     font-family: 'Gilroy', Poppins;
     font-weight: 600;
 }
+
+.title-h1 {
+    @apply text-6xl lg:text-8xl font-semibold;
+}
+
+.title-h2 {
+    @apply text-5xl font-semibold;
+}

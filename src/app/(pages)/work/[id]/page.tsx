@@ -50,7 +50,7 @@ export default function Article(props: any) {
                     />
                 </div>
 
-                <Markdown className={`${style.article} flex flex-col gap-12 px-2 text-justify`}
+                <Markdown className={`${style.article} flex flex-col gap-12 px-4 text-justify`}
                     options={{
                         overrides: componentsStyle
                     }}
