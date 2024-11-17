@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">💻 Personal Portfolio 💻</h3>
+  <h3 align="center">💻 Simplefolio 💻</h3>
 
 </div>
 
@@ -47,8 +47,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/pietropeerani/portfolio
-cd portfolio
+git clone https://github.com/pietropeerani/simplefolio.git simplefolio
+cd simplefolio
 ```
 
 **Installation**
@@ -103,7 +103,7 @@ render: true
 
 
 ## <a name="deploy">🚀 Deploy</a>
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2pietropeerani%2Fportfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2pietropeerani%2Fsimplefolio)
 
 
 <div align="center">
