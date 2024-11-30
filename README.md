@@ -29,7 +29,7 @@
 
 ## <a name="features">🔋 Features</a>
 - ✅ **Responsive Design**: Ensures optimal display and functionality across all devices.
-- 🔄 **Blog**
+- ✅ **Blog**
 
 
 ## <a name="quick-start">🤸 Quick Start</a>
